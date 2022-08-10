@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    internal static class Program
+    internal static class Calculadora
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new CalculadoraGUI());
         }
     }
 }
