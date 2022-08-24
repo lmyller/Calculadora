@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Calculator.Historic
 {
@@ -15,17 +16,17 @@ namespace Calculator.Historic
             listHistoric = new List<string>();
         }
 
-        public void AddCalculate(string calculate)
+        public void Add(string calculate)
         {
             listHistoric.Add(calculate);    
         }
 
-        public string GetCalculate(int index)
+        public string Get(int index)
         {
             return listHistoric.ElementAt(index);
         }
 
-        public int SizeHistoric()
+        public int Size()
         {
             return listHistoric.Count;
         }
